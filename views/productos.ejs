@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Productos</title>
+</head>
+<body>
+  <h1>Lista de Productos</h1>
+  <table class="container">
+    <% if (Array.isArray(datos) && datos.length) { %>
+      <% for (const producto of datos) { %>
+        <tr>
+            <td class="celda"><%= producto.Nombre %></td>
+            <td class="celda"><%= producto.precio %></td>
+            <td class="celda"><%= producto.descripcion %></td>
+        </tr>
+    <% } %>
+    <% } %>
+</table>
+</body>
+</html>

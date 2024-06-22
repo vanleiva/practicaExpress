@@ -1,0 +1,20 @@
+body {
+    text-align: center; /* Alineación central para el texto en general */
+}
+
+.button-link {
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin: 10px; /* Margen entre los enlaces */
+    padding: 10px 20px; /* Padding para hacer clic más fácil */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del texto */
+    border: none; /* Quitar borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+.button-link:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
